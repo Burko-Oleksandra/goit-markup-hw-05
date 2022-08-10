@@ -260,24 +260,24 @@ header {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+  transition: opacity 500ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  
 }
 
 .backdrop.is-hidden .modal {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.3);
+  transform: translate(-50%, -50%) scale(0.4) rotate(360deg);
 }
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
   z-index: 3;
   min-width: 528px;
   min-height: 521px;
@@ -286,6 +286,7 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   opacity: 1;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
   transition: opacity 250ms var(--timing-function), transform 250ms var(--timing-function);
 }
 
