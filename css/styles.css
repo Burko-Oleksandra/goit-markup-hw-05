@@ -115,7 +115,7 @@ header {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  transition: color 250ms var (--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .nav-link:hover,
@@ -144,7 +144,7 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.4;
-  transition: color 250ms var (--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .logo-accent {
@@ -165,7 +165,7 @@ header {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  transition: color 250ms var (--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .auth-link:hover,
@@ -193,16 +193,16 @@ header {
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition-property: background-color, color;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: var (--timing-function);
+  transition-timing-function: var(--timing-function);
 }
 
 .button.color:hover,
 .button.color:focus {
   color: var(--accent-color);
   background-color: var(--background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-list {
@@ -227,7 +227,7 @@ header {
   margin-right: 8px;
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: var (--timing-function);
+  transition-timing-function: var(--timing-function);
 }
 
 .regular-button:hover,
@@ -266,7 +266,6 @@ header {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  
 }
 
 .backdrop.is-hidden .modal {
@@ -349,7 +348,7 @@ header {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  transition: box-shadow 250ms var (--timing-function);
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .work-list {
@@ -557,7 +556,7 @@ header {
   border-radius: 50%;
   transition-property: background-color, color;
   transition-duration: 250ms;
-  transition-timing-function: var (--timing-function);
+  transition-timing-function: var(--timing-function);
 }
 
 .social-network li + li {
@@ -617,7 +616,7 @@ header {
   padding: 16px 32px;
   transition-property: color, border;
   transition-duration: 250ms;
-  transition-timing-function: var (--timing-function);
+  transition-timing-function: var(--timing-function);
 }
 
 .client-button a {
@@ -647,7 +646,7 @@ header {
   font-size: 26px;
   line-height: 1.4;
   margin-bottom: 20px;
-  transition: color 250ms var (--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 .logo-secondary:hover,
@@ -663,7 +662,7 @@ address a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  transition: color 250ms var (--timing-function);
+  transition: color 250ms var(--timing-function);
 }
 
 address a:hover,
@@ -714,7 +713,7 @@ address a:focus {
   color: var(--background-color);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition: background-color 250ms var (--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 
 .network-item:hover,
