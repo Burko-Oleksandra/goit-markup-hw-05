@@ -500,6 +500,7 @@ header {
 .client li + li {
   margin-left: 30px;
 }
+
 .client-button {
   display: flex;
   align-items: center;
