@@ -168,6 +168,13 @@ header {
 .icon-nav {
   margin-right: 10px;
   fill: currentColor;
+
+  transition: fill 250ms var(--timing-function);
+}
+
+.icon-nav:hover,
+.icon-nav:focus {
+  fill: var(--accent-color);
 }
 
 /* Main */
@@ -504,6 +511,18 @@ header {
 
 .icon:hover,
 .icon:focus {
+  fill: var(--background-color);
+  background-color: var(--accent-color);
+}
+
+.network-icon {
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.network-icon:hover,
+.network-icon:focus {
   fill: var(--background-color);
   background-color: var(--accent-color);
 }
